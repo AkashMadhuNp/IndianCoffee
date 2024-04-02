@@ -1,0 +1,530 @@
+body{
+    margin: 0;
+}
+
+
+.header{
+    display: flex;
+    width: 100%;
+    height: 90px;
+    background-color:white;
+}
+
+.header .img{
+    width: 30%;
+    background-color: white;
+}
+
+.header .img img{
+    width: 70%;
+    margin-left: 30%;
+}
+
+
+.header .nav-bar{
+    width: 70%;
+    background-color: white;
+    display: flex;
+}
+
+.header .nav-bar li{
+    display: inline-flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: Oswald, sans-serif;
+    line-height: 55px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.header .nav-bar li a{
+    display: inline-flex;
+    color: black;
+    font-size: 16px;
+    font-family: Oswald, sans-serif;
+    line-height: 55px;
+    cursor: pointer;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+
+
+.bgimg{
+    width: 100%;
+    height: 580px;
+    background-color: black;
+}
+
+.bgimg img{
+    width: 100%;
+    height: 580px;
+    vertical-align: middle;
+}
+
+.content{
+    width: 100%;
+    
+    background-color: white;
+    display: flex;
+}
+
+.content .text-content{
+    background-color: white;
+    
+    width: 50%;
+    margin-left: 25px;
+    margin-top: 25px;
+    text-align: justify;
+    padding-left: 4%;
+}
+
+.content .text-content h1{
+    font-family: Roboto, sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: 
+    rgb(21, 22, 42);
+    line-height: 57px;
+    margin-left: 15%;
+}
+
+.content .text-content  .para{
+
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+    line-height: 23px;
+    font-weight: 400;
+    font-size: 16px;
+    
+    margin-top: 10px;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+
+.content .text-content h3{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: 
+    rgb(21, 22, 42);
+    line-height: 20px;
+    margin-left: 15%;
+}
+
+
+.content .text-content  .para1{
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Roboto, sans-serif;
+    color: rgb(123, 123, 123);
+    margin-top: 10px;
+    margin-left: 15%;
+    margin-right:10%;
+}
+
+
+.content .text-content .read{
+    background-color: #6F4E37;
+    margin-left: 15%;
+    
+    margin-right:10%;
+    height: 50px;
+    width: 120px;
+    cursor: pointer;
+    border: 1px solid #917559 ;
+}
+
+
+.content .text-content .read a{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+
+
+
+
+.content .img-content{
+    background-color: white;
+    
+    width: 50%;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-left: -10px;
+}
+
+
+
+.content .img-content img{
+    width: 550px;
+    height: 500px;
+    margin-top: 65px;
+}
+
+
+.sus{
+    width: 100%;
+    height: 250px;
+    background-color: white;
+}
+
+
+.sus h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 57px;
+    font-family: Roboto, sans-serif;
+}
+
+.sus .details{
+    display: flex;
+    height: 120px;
+    width: 80%;
+    background-color: white;
+    margin-left: 2%;
+}
+
+
+.sus .details .sustain-img{
+    width: 29px;
+    height: 30px;
+    
+}
+
+.sus .details .sus-list {
+    display: flex;
+    margin-left: 10%;
+
+
+}
+
+
+.sus .details .sus-list li{
+    list-style-type: none;
+    margin-right: 140px;
+    text-align: center;
+    align-items: center;
+    margin-left: 10px;
+    font-family: 
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 15px;
+    color: 
+    rgb(51, 51, 51);
+}
+
+
+.type{
+    
+    width: 100%;
+    background-color: #F6F4F3;
+    display: flex;
+}
+
+.type .enquiry-form{
+    height: 350px;
+    width: 35%;
+    background-color: #F6F4F3;
+    margin-left: 10%;
+}
+
+.type .enquiry-form .head{
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 57px;
+    margin-left: 10px;
+}
+
+.type .enquiry-form input{
+    width: 400px;
+    height: 30px;
+    border:black;
+    border-radius: 6px;
+    margin-top: 10px;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif ;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: 
+    rgb(73, 80, 87);
+}
+.type .enquiry-form button{
+    background-color: #6F4E37;
+    border: 1px solid #917559;
+    margin-top: 30px;
+    width: 120px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 400;
+    
+}
+
+
+.type .red-line{
+    width: 10%;
+    
+    justify-content: center;
+}
+.type .red-line .line{
+    align-items: center;
+    width: 6px;
+    height: 350px;
+    background-color: red;
+    margin-left: 40% ;
+    margin-top: 13%;
+}
+
+
+.type .complaint-form{
+    height: 350px;
+    width: 35%;
+    
+    margin-right: 10%;
+}
+
+
+.type .complaint-form .head{
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 57px;
+    margin-left: 10px;
+}
+
+.type .complaint-form button{
+    background-color: #6F4E37;
+    border: 1px solid #917559;
+    margin-top: 30px;
+    width: 120px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 400;
+}
+
+
+.type .complaint-form input{
+    width: 400px;
+    height: 30px;
+    border:black;
+    border-radius: 6px;
+    margin-top: 10px;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif ;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: 
+    rgb(73, 80, 87);
+    
+}
+
+
+.type .complaint-form input{
+    width: 400px;
+    height: 30px;
+    border:black;
+    border-radius: 6px;
+    margin-top: 10px;
+    font-size: 16px;
+    
+}
+
+
+.latest{
+    height: 300px;
+    width: 100%;
+    background-color: white;
+}
+
+.latest h1{
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 40px;
+    line-height: 57px;
+    font-weight: 500;
+
+}
+
+.latest .img{
+    display: flex;
+    
+}
+
+.latest .img img{
+    width: 350px;
+    height: 180px;
+    margin-left: 8%;
+}
+
+
+.latest p{
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    color: rgb(123, 123, 123);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+.blue{
+    height: 120px;
+    width: 100%;
+    background-color:#000068;
+    margin-top: 10px;
+}
+
+.blue form{
+    margin-left: 7%;
+}
+
+.blue form input{
+    margin-top: 50px;
+    margin-left: 40px;
+    height: 20px;
+    width: 199px;
+}
+
+.blue form button{
+    margin-left: 200px;
+    width: 150px;
+    height: 40px;
+    background-color: red;
+    cursor: pointer;
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+
+
+}
+
+
+
+
+.Box{
+    background-color: white;
+    width: 100%;
+    
+    display: flex;
+}
+
+.Box .logo-foot{
+    width: 30%;
+    height: 300px;
+    background-color: white;
+    margin-top: 25px;
+    margin-left: 11%;
+    padding: 2px;
+}
+
+
+.Box .logo-foot img{
+    width: 250px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.Box .logo-foot p{
+    color: #7F7B7B;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.Box .Useful{
+    width: 20%;
+    height: 300px;
+    background-color:white;
+    margin-top: 25px;
+    margin-left: 2px;
+    justify-content: center;
+
+}
+
+.Box .Useful h3{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    line-height: 27px;
+    font-weight: 500;
+    margin-left: 15%;
+}
+
+.Box .Useful a{
+    text-decoration: none;
+    color: black;
+    margin: 1%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.Contact-Us{
+    background-color: white;
+    width: 30%;
+    height: 300px;
+    margin-top: 25px;
+}
+
+.Contact-Us h4{
+    margin-left: 15%;
+    font-family: 
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    line-height: 27px;
+    font-weight: 500;
+}
+
+.Contact-Us p{
+    padding-right: 10px;
+    margin-left: 15%;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(123, 123,123);
+}
+
+.Contact-Us img{
+    margin-left: 15%;
+}
+
+
+
+
+
+.red{
+    background-color: red;
+    width: 100%;
+    height:70px;
+    justify-content: center;
+    text-align: left;
+}
+
+.red h3{
+    padding-left: 13%;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 500;
+    color: white;
+}
